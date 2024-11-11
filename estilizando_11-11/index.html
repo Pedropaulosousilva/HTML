@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <!-- Define o tipo de documento como HTML5 -->
+    <meta charset="UTF-8" />
+    <!-- Define que a página será visualizada adequadamente em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título da página, exibido na aba do navegador -->
+    <title>Página Inicial - Venda de Ingressos</title>
+    <!-- Link externo para o arquivo de estilo CSS, que define a aparência da página -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Cabeçalho da página, geralmente usado para apresentar o logo e o menu de navegação -->
+    <header>
+      <!-- Div usada para agrupar a logo e o título, facilitando o estilo com flexbox -->
+      <div class="logo">
+        <!-- Logo do site inserida com a tag <img>, que exibe uma imagem -->
+        <img src="png.jpg" alt="Logo do site" />
+        <!-- Título principal do site, exibido dentro do cabeçalho -->
+        <h1>BetMaster</h1>
+      </div>
+      <!-- Parágrafo abaixo do título, dando uma breve descrição do site -->
+      <p>Aposte como um master, ganhe como um vencedor.</p>
+      <!-- Menu de navegação que contém uma lista de links para diferentes seções da página -->
+      <nav>
+        <ul>
+          <!-- Cada link no menu, que direciona para uma seção específica da página -->
+          <li><a href="#home">Início</a></li>
+          <li><a href="#Jogos">Jogos</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button class="botão-header" onclick="window.location.href ='cadastro.html'">Cadastro</button>
+    </header>
+
+    <!-- Conteúdo principal da página, onde informações principais são exibidas -->
+    <main>
+      <!-- Seção de boas-vindas, identificada por um ID para estilização específica -->
+      <section id="home">
+        <!-- Título da seção de boas-vindas -->
+        <h2>Bem-Vindo a BetMaster </h2>
+        <!-- Parágrafo descrevendo brevemente o objetivo do site -->
+        <p>
+          Aqui você encontra as melhores Odds para suas apostas
+        </p>
+      </section>
+
+      <!-- Seção que lista os jogos disponíveis -->
+      <section id="Jogos">
+        <!-- Título da seção de eventos -->
+        <h2>Próximos Jogos</h2>
+        <!-- Div que agrupa os eventos, com um layout em grade flexível -->
+        <div class="jogos-container">
+          <!-- Cada evento é representado por uma "caixa" (div) -->
+          <div class="jogo-item">
+            <div>
+            
+                <!-- Título do evento -->
+                
+            </div>
+            <div class="jogo-item">
+                <!-- Título do segundo evento -->
+                <img class="png " src="png5.jpg" alt="tenis" />
+                
+                <h3>Tenis:Carlos Alcaraz X Novak Djokovic</h3>
+                <!-- Data do segundo evento -->
+                <p>Data: 30 de Setembro ás 13:00</p>
+                <button>Casa:1.45</button>
+                
+                <button>Fora:1.98</button>
+                
+              </div>
+         <div class="jogo-item">
+            <!-- Título do segundo evento -->
+            <img class="png " src="png2.png" alt="Basquete" />
+            
+            <h3>Basquete:Pinheiros X Paulistano</h3>
+            <!-- Data do segundo evento -->
+            <p>Data: 30 de Setembro ás 14:00</p>
+            <button>Casa:1.65</button>
+            
+            <button>Fora:1.85</button>
+            
+          </div>
+          <div class="jogo-item">
+            <!-- Título do segundo evento -->
+            <img class="png " src="png4.jpg" alt="Basquete" />
+            
+            <h3>Futebol:Brasil(F) X EUA(F)</h3>
+            <!-- Data do segundo evento -->
+            <p>Data: 30 de Setembro ás 21:30</p>
+            
+            <button>Casa:1.65</button>
+            <button>Empate:2.75</button>
+            <button>Fora:2.05</button>
+            
+          </div>
+        
+        <div class="jogo-item">
+            <!-- Título do segundo evento -->
+            <img class="png " src="png2.png" alt="Futebol" />
+            
+            <h3>Futebol:Santos X Palmeiras</h3>
+            <!-- Data do segundo evento -->
+            <p>Data: 30 de Setembro ás 14:00</p>
+            <button>Casa:2.45</button>
+            <button>Empate:2.95</button>
+            <button>Fora:1.85</button>
+            
+          </div>
+          <div class="jogo-item">
+            <!-- Título do segundo evento -->
+            <img class="png " src="png3.png" alt="Volei" />
+            <h3>Volei:Sesi X Sesc Flamengo</h3>
+            <!-- Data do segundo evento -->
+            <p>Data: 30 de Setembro ás 17:00</p>
+            <button>Casa:1.25</button>
+            
+            <button>Fora:2.65</button>
+        
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção sobre a empresa ou organização responsável pelo site -->
+      <section id="sobre">
+        <!-- Título da seção "Sobre Nós" -->
+        <h2>Sobre Nós</h2>
+        <!-- Breve descrição da empresa -->
+        <p>
+            No BetMaster, somos apaixonados por jogos e estratégias vencedoras. Com uma plataforma intuitiva e apostas seguras, oferecemos aos nossos usuários uma experiência única. Aqui, você não é apenas mais um apostador – você é um verdadeiro mestre. Aposte com inteligência, jogue com confiança, e vença com a expertise dos melhores. No BetMaster, cada aposta é uma oportunidade para conquistar!
+        </p>
+      </section>
+      <section id="Contato">
+        <!-- Título da seção "Contato" -->
+        <h2>Contato</h2>
+        <!-- Breve descrição da empresa -->
+        <ul>
+            <li>Fale Conosco:
+
+            <li>E-mail: suporte@betmaster.com.br</li>
+            <li>Telefone: (11) 1234-5678</li>
+            <li>WhatsApp: (11) 9876-5432</li>
+            <li>Instagram: @betmasterbr</li>
+            <li>Facebook: BetMaster Oficial</li>
+            <li>Twitter: @betmasterbr</li>
+            <li>TikTok: @betmasterbr</li>
+        </ul>
+            
+        
+      </section>
+    </main>
+
+    <!-- Rodapé da página, com informações como direitos autorais -->
+    <footer>
+      <!-- Texto exibido no rodapé -->
+      <p>&copy; APOSTE COM BetMaster</p>
+    </footer>
+
+    <script>
+      function mostrarMensagem() {
+        alert("Olá!Voce clicou no botão!");
+      }
+    </script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
